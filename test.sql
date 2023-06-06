@@ -11,3 +11,15 @@ INSERT INTO animali (nomeAnimale, sesso, data_di_nascita, id_razza, id_specie, i
 
 INSERT INTO promemoria (titolo, descrizione, data_e_ora, id_animale, id_utente)
 VALUES ("veterinaio", "Portare fido dal veterinario", '2023-06-20 08:30:00', 1, 1);
+
+INSERT INTO tipo_luoghi (nomeTipo)
+VALUES ("Parco"),
+	   ("Veterinaio"),
+	   ("Negozio"),
+	   ("Farmacia");
+       
+INSERT INTO luoghi (nomeLuogo, latitudine, longitudine, id_tipo_luogo, id_localita)
+VALUES ("Parco Monza", 100, 10, 1, 5);
+
+INSERT INTO preferiti (id_utente, id_luogo)
+VALUES (1,1);
