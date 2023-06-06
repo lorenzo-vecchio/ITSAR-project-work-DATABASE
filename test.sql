@@ -10,4 +10,4 @@ INSERT INTO animali (nomeAnimale, sesso, data_di_nascita, id_razza, id_specie, i
 INSERT INTO animali (nomeAnimale, sesso, data_di_nascita, id_razza, id_specie, id_utente) VALUES ('Tweety', 'M', '2022-03-10', 3, 3, 1);
 
 INSERT INTO promemoria (titolo, descrizione, data_e_ora, id_animale, id_utente)
-VALUES ("veterinaio", "Portare fido dal veterinario", '2023-06-20', 1, 1);
+VALUES ("veterinaio", "Portare fido dal veterinario", '2023-06-20 08:30:00', 1, 1);
