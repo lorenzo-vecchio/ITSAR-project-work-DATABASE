@@ -93,7 +93,7 @@ create table promemoria
     id int primary key auto_increment,
     titolo varchar(255),
     descrizione varchar(500),
-    data date,
+    data_e_ora datetime,
     id_animale int,
     id_utente int,
     foreign key (id_animale) references animali(id),
