@@ -19,7 +19,12 @@ VALUES ("Parco"),
 	   ("Farmacia");
        
 INSERT INTO luoghi (nomeLuogo, latitudine, longitudine, id_tipo_luogo, id_localita)
-VALUES ("Parco Monza", 100, 10, 1, 5);
+VALUES ("Parco Monza", 100, 10, 1, 5),
+       ("Parco Villa Borghese", 50, 20, 1, 5),
+       ("Parco Centrale", 70, 30, 1, 5),
+       ("Parco dei Giardini", 80, 40, 1, 5),
+       ("Parco Municipale", 90, 50, 1, 5);
+
 
 INSERT INTO preferiti (id_utente, id_luogo)
 VALUES (1,1);
