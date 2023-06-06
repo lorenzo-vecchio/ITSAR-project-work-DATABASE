@@ -6,7 +6,7 @@ with open('italy_cities.json') as f:
     data = json.load(f)
 
 # Connect to the MySQL database
-cnx = mysql.connector.connect(user='root', password='Lollipoplollipop02', host='localhost', port='3306', database='project_work')
+cnx = mysql.connector.connect(user='root', password='password', host='localhost', port='3306', database='project_work')
 cursor = cnx.cursor()
 i = 0
 for row in data:
