@@ -1,4 +1,4 @@
-SELECT l.nomeLuogo, tl.nomeTipo, loc.nomeLocalita, prov.nomeProvincia, reg.nomeRegione
+SELECT l.nomeLuogo, tl.nomeTipo, loc.nomeLocalita, prov.sigla, reg.nomeRegione, l.latitudine, l.longitudine
 FROM luoghi AS l
 JOIN tipo_luoghi AS tl ON l.id_tipo_luogo = tl.id
 JOIN localita AS loc ON l.id_localita = loc.id
