@@ -58,6 +58,7 @@ create table servizi
     longitudine int not null,
     id_tipo_servizio int,
     id_localita int,
+    approvato bit,
     foreign key (id_tipo_servizio) references tipologia_servizi(id),
     foreign key (id_localita) references localita(id)
 );
