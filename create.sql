@@ -1,6 +1,4 @@
-create database project_work;
-
-use project_work;
+use railway;
 
 create table utenti
 (
