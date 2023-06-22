@@ -29,12 +29,15 @@ create table animali
     nomeAnimale varchar(255) not null,
     sesso char(1) not null,
     data_di_nascita date not null,
+    peso float,
     immagine blob,
     id_razza int,
     id_utente int,
     foreign key (id_razza) references razze (id),
     foreign key (id_utente) references utenti (id)
 );
+
+alter table animali add peso float;
 
 create table localita
 (
