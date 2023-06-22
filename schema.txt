@@ -1,0 +1,43 @@
+- login
+	(GET, POST)
+
+
+- luoghi
+	(GET, POST)
+	GET:
+		ricevi tutti i luoghi che esistono sulla piattaforma
+	POST:
+		aggiungi un luogo, (approvato = 0)
+
+
+- animals
+	(GET, POST)
+	GET:
+		ricevere tutti gli animali di un utente specifico
+	POST:
+		inserisci un animale a un utente specifico
+
+- register
+	(POST)
+	POST:
+		aggiungi un utente (email, username, password)
+
+
+- logout
+	(POST)
+	POST:
+		chiudi la sessione utente
+
+- servizi-preferiti
+	(GET, POST)
+	GET:
+		ricevi tutti i luoghi preferiti di un utente identificato tramite id
+	POST:
+		aggiungi ai preferiti di un utente identificato tramite id un luogo identificato tramite id
+
+- promemoria
+	(GET, POST)
+	GET:
+		riceve tutti i promemoria di un utente identificato tramite id
+	POST:
+		inserire un promemoria a un animale identificato tramite id
