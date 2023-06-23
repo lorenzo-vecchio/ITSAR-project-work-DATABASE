@@ -12,5 +12,10 @@ INNER JOIN animali as a on r.id_animale = a.id INNER JOIN utenti as u on a.id_ut
 WHERE u.id = 1
 ORDER BY pm.data_e_ora;
 
+/*query per eliminare un promemoria di un singolo utente*/
+DELETE FROM riferimento
+WHERE id_promemoria = 1;
+
+/*query per aggiornare un promemoria*/
 
 
