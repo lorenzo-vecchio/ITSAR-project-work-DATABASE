@@ -1,7 +1,7 @@
 /*aggiungere un utente*/
 INSERT INTO utenti (userName, password, email) VALUES ('testuser', 'testpassword', 'testuser@example.com');
 
-/*dati fitizzi per la tabella specie e razza*/
+/*dati fittizi per la tabella specie e razza*/
 INSERT INTO specie (nomeSpecie) VALUES ('Cane');
 INSERT INTO specie (nomeSpecie) VALUES ('Gatto');
 INSERT INTO specie (nomeSpecie) VALUES ('Uccello');
@@ -23,7 +23,7 @@ INSERT INTO riferimento(id_promemoria, id_animale)
 values (1,1),
 (1,2);
 
-/*dati fitizzi per la tabella tipologia_servizi*/
+/*dati fittizi per la tabella tipologia_servizi*/
 INSERT INTO tipologia_servizi (nomeTipo)
 VALUES ("Parco"),
 	   ("Veterinaio"),
@@ -38,7 +38,7 @@ VALUES ("Parco Monza", 10, 100, 1, 1),
        ("Veterinario Luigi", 40, 80, 2, 3),
        ("Parco Municipale", 50, 90, 1, 3);
 
-/*dati fitizzi per la tabella localita*/
+/*dati fittizi per la tabella localita*/
 insert into localita (nomeLocalita, provincia, regione)
 values ("Milano", "Milano", "Lombardia"),
 ("Roma", "Roma", "Lazio"),
