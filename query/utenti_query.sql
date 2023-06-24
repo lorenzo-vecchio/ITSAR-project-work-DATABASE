@@ -12,3 +12,6 @@ UPDATE utenti SET email = "pippo@gmail.com" /*nuova email*/ where id=1;
 
 /*modifica nomeUtente di un singolo utente*/
 UPDATE utenti SET userName = "SIIIUUUUUMMM" /*nuovo nome*/ where id=1;
+
+/*elimina definitivamente l'utente*/
+DELETE FROM utenti WHERE id = 1;

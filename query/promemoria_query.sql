@@ -16,6 +16,14 @@ ORDER BY pm.data_e_ora;
 DELETE FROM riferimento
 WHERE id_promemoria = 1;
 
-/*query per aggiornare un promemoria*/
+/*query per aggiornare un promemoria (con tutti i campi ma si può fare anche con un singolo di questi)*/
+UPDATE promemoria
+SET titolo = "nuovoTitolo", descrizione="nuovaDescrizione", data_e_ora = "2023/06/24 16:40"
+WHERE id=1;
+
+/*per eliminare un animale dal promemoria*/
+DELETE FROM riferimento
+WHERE id_promemoria = 1 and id_animale = 1;
+
 
 
