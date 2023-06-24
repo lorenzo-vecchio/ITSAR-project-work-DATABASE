@@ -19,6 +19,7 @@ INSERT INTO animali (nomeAnimale, sesso, data_di_nascita,peso, id_razza, id_uten
 INSERT INTO promemoria (titolo, descrizione, data_e_ora)
 VALUES ("veterinaio luigi", "Portare fido dal veterinario", '2023-06-20 08:30:00');
 
+/*collegare l'animale in quel promemoria*/
 INSERT INTO riferimento(id_promemoria, id_animale)
 values (1,1),
 (1,2);
