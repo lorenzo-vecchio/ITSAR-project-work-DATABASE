@@ -1,5 +1,5 @@
 /*query per prelevare tutte le informazioni di tutti gli animali di un singolo utente*/
-SELECT animali.nomeAnimale, animali.sesso, animali.data_di_nascita, animali.peso, razze.nomeRazza, specie.nomeSpecie
+SELECT animali.id, animali.nomeAnimale, animali.sesso, animali.data_di_nascita, animali.peso, razze.nomeRazza, specie.nomeSpecie
 FROM animali 
 INNER JOIN razze ON animali.id_razza = razze.id
 INNER JOIN specie ON razze.id_specie = specie.id

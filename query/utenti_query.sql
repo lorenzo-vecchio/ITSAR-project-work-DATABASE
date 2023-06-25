@@ -1,3 +1,6 @@
+/*query per ricavare tutti i dati di un utente*/
+SELECT * FROM utenti WHERE userName="ciao" and password="1457"
+
 /*query per prendere tutti i dati di un singolo utente*/
 SELECT userName, password, email, immagine FROM utenti WHERE id=1;
 
